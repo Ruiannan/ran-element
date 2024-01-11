@@ -1,13 +1,13 @@
 <script setup lang="ts">
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+	<h1>{{ msg }}</h1>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .read-the-docs {
-  color: #888;
+	color: #888;
 }
 </style>
